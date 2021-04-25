@@ -3,10 +3,14 @@ import {Text, image, View } from 'react-native';
 
 export default function MyDog() {
   let pic= {
-    uri: 'https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/'
+    uri: 'https://raw.githubusercontent.com/AbdunabiRamadan/CIS340/master/images/dog2.png'
   }
   return (
-    <View>
+    <View style= {{
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center'
+    }} >
       <Image source= {pic}
       style={{width: 200, height: 200}}
       />

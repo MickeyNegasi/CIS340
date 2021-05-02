@@ -20,7 +20,7 @@ export default StatesApp = () => {
       paddingBottom: 4,
       fontSize: 14,
       fontWeight: 'bold',
-      backgroundColor: 'fffffff', }}>{section.title}</Text>}
+      backgroundColor: '#9FA8DA', }}>{section.title}</Text>}
       keyExtractor= {(item, index) => index}
       />
    </View>
